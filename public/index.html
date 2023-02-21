@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=egde" />
+        <meta id="val" name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Mapa de Escalas</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;0,900;1,400&display=swap" rel="stylesheet">
+        <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;0,900;1,400&display=swap');
+        </style>
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <link rel="icon" type="image/x-icon" href="icon.png" />
+        
+    </head>
+    <body>
+        <main class="app">
+            
+            <section class="escala-semanal">
+                <div id="header-data">
+                    <h2 id="escala">Escala de <input type="date" class="input-data" id="data-inicio" /> até <input type="date" class="input-data" id="data-fim" /></h2>
+                    <form class="form-class">
+                    <div class="linhaDiasSemana" id="container">
+                        
+                        <div id="col2">
+                            <h2>Local</h2>
+                            <div><textarea class="cor1" id="field" name="column" rows="4" cols="1" readonly style="font-weight: bold">
+                                P1 Ala A</textarea></div>
+                            <div><textarea class="cor2" id="AB-seg" name="column" rows="4" cols="1" readonly style="font-weight: bold">
+                                P1 Ala B</textarea></div>
+                            <div><textarea class="cor3" id="AC-seg" name="column" rows="4" cols="1" readonly style="font-weight: bold">
+                                P2 Ala C</textarea></div>
+                            <div><textarea class="cor4" id="AD-seg" name="column" rows="4" cols="1" readonly style="font-weight: bold">
+                                P2 Ala D</textarea></div>
+                            <div><textarea class="cor5" id="P0-seg" name="column" rows="4" cols="1" readonly style="font-weight: bold">
+                                Piso 0</textarea></div>
+                            <div><textarea class="cor6" id="Ca-seg" name="column" rows="4" cols="1" readonly style="font-weight: bold">
+                                Carrinho</textarea></div>
+                        </div>
+                        <div class="dias-semana">
+                            <h2>Segunda</h2>
+                            <div><textarea class="cor1" id="val1" name="field" rows="4" cols="1" ></textarea></div>
+                            <div><textarea class="cor2" id="val2" name="field" rows="4" cols="1" ></textarea></div>
+                            <div><textarea class="cor3" id="val3" name="field" rows="4" cols="1" ></textarea></div>
+                            <div><textarea class="cor4" id="val4" name="field" rows="4" cols="1" ></textarea></div>
+                            <div><textarea class="cor5" id="val5" name="field" rows="4" cols="1" ></textarea></div>
+                            <div><textarea class="cor6" id="val6" name="field" rows="4" cols="1" ></textarea></div>
+                        </div>
+                        <div class="dias-semana">
+                            <h2>Terça</h2>
+                            <div><textarea class="cor1" id="val7" name="field" rows="4" cols="1" ></textarea></div>
+                            <div><textarea class="cor2" id="val8" name="field" rows="4" cols="1" ></textarea></div>
+                            <div><textarea class="cor3" id="val9" name="field" rows="4" cols="1" ></textarea></div>
+                            <div><textarea class="cor4" id="val10" name="field" rows="4" cols="1" ></textarea></div>
+                            <div><textarea class="cor5" id="val11" name="field" rows="4" cols="1" ></textarea></div>
+                            <div><textarea class="cor6" id="val12" name="field" rows="4" cols="1" ></textarea></div>
+                        </div>
+                        <div class="dias-semana">
+                            <h2>Quarta</h2>
+                            <div><textarea class="cor1" id="val13" name="field" rows="4" cols="1" ></textarea></div>
+                            <div><textarea class="cor2" id="val14" name="field" rows="4" cols="1" ></textarea></div>
+                            <div><textarea class="cor3" id="val15" name="field" rows="4" cols="1" ></textarea></div>
+                            <div><textarea class="cor4" id="val16" name="field" rows="4" cols="1" ></textarea></div>
+                            <div><textarea class="cor5" id="val17" name="field" rows="4" cols="1" ></textarea></div>
+                            <div><textarea class="cor6" id="val18" name="field" rows="4" cols="1" ></textarea></div>
+                        </div>
+                        <div class="dias-semana">
+                            <h2>Quinta</h2>
+                            <div><textarea class="cor1" id="val19" name="field" rows="4" cols="1" ></textarea></div>
+                            <div><textarea class="cor2" id="val20" name="field" rows="4" cols="1" ></textarea></div>
+                            <div><textarea class="cor3" id="val21" name="field" rows="4" cols="1" ></textarea></div>
+                            <div><textarea class="cor4" id="val22" name="field" rows="4" cols="1" ></textarea></div>
+                            <div><textarea class="cor5" id="val23" name="field" rows="4" cols="1" ></textarea></div>
+                            <div><textarea class="cor6" id="val24" name="field" rows="4" cols="1" ></textarea></div>
+                        </div>
+                        <div class="dias-semana">
+                            <h2>Sexta</h2>
+                            <div><textarea class="cor1" id="val25" name="field" rows="4" cols="1" ></textarea></div>
+                            <div><textarea class="cor2" id="val26" name="field" rows="4" cols="1" ></textarea></div>
+                            <div><textarea class="cor3" id="val27" name="field" rows="4" cols="1" ></textarea></div>
+                            <div><textarea class="cor4" id="val28" name="field" rows="4" cols="1" ></textarea></div>
+                            <div><textarea class="cor5" id="val29" name="field" rows="4" cols="1" ></textarea></div>
+                            <div><textarea class="cor6" id="val30" name="field" rows="4" cols="1" ></textarea></div>
+                        </div>
+                        <div class="dias-semana">
+                            <h2>Sábado</h2>
+                            <div><textarea class="cor1" id="val31" name="field" rows="4" cols="1" ></textarea></div>
+                            <div><textarea class="cor2" id="val32" name="field" rows="4" cols="1" ></textarea></div>
+                            <div><textarea class="cor3" id="val33" name="field" rows="4" cols="1" ></textarea></div>
+                            <div><textarea class="cor4" id="val34" name="field" rows="4" cols="1" ></textarea></div>
+                            <div><textarea class="cor5" id="val35" name="field" rows="4" cols="1" ></textarea></div>
+                            <div><textarea class="cor6" id="val36" name="field" rows="4" cols="1" ></textarea></div>
+                        </div>
+                        <div class="dias-semana">
+                            <h2>Domingo</h2>
+                            <div><textarea class="cor1" id="val37" name="field" rows="4" cols="1" ></textarea></div>
+                            <div><textarea class="cor2" id="val38" name="field" rows="4" cols="1" ></textarea></div>
+                            <div><textarea class="cor3" id="val39" name="field" rows="4" cols="1" ></textarea></div>
+                            <div><textarea class="cor4" id="val40" name="field" rows="4" cols="1" ></textarea></div>
+                            <div><textarea class="cor5" id="val41" name="field" rows="4" cols="1" ></textarea></div>
+                            <div><textarea class="cor6" id="val42" name="field" rows="4" cols="1" ></textarea></div>
+                        </div>
+                    </form>
+                    </div>
+                </div>
+                <div class="disclaimers">
+                    <div><label class="cor7"><h2>Onde tem * desce após os banhos e P.A</h2></label></div>
+                </div>
+                <div class="delete-div">
+                    <button id="save" class="buttonsave">Gravar em Base de Dados</button>
+
+                    <button id="delete" class="buttondelete">Apagar tudo</button>
+                </div>
+                
+            </section>
+            
+        </main>
+
+        <script src="main.js"></script>
+        
+    </body>
+
+</html>
