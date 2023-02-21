@@ -3,7 +3,7 @@
 const url = 'https://escalas.cyclic.app'
 
 window.addEventListener('DOMContentLoaded', (e) => {
-    e.preventDefault()
+    //e.preventDefault()
     localStorage.clear();
 })
 
