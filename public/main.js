@@ -5,6 +5,7 @@ const url = 'https://escalas.cyclic.app'
 window.addEventListener('DOMContentLoaded', (e) => {
     //e.preventDefault()
     localStorage.clear();
+    Render();
 })
 
 const startDate = document.getElementById('data-inicio');
