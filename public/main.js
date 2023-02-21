@@ -3,6 +3,7 @@
 const url = 'https://escalas.cyclic.app'
 const startDate = document.getElementById('data-inicio');
 const endDate = document.getElementById('data-fim');
+const loadDb = document.getElementById('load');
 const saveBtn = document.getElementById('save');
 const delBtn = document.getElementById('delete');
 const container = document.getElementById('container');
@@ -10,6 +11,12 @@ const container = document.getElementById('container');
 let dataInputs = document.getElementsByName('field');
 
 Inputs = JSON.parse(localStorage.getItem('dataInputs')) || [];
+
+loadDb.addEventListener('click', async () => {
+    localStorage.clear();
+
+    await Render();
+})
 
 async function Render() {
 
