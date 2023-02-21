@@ -1,9 +1,15 @@
 //const url = 'http://localhost:3000'
 //const url = 'https://uninterested-pear-hose.cyclic.app'
 const url = 'https://escalas.cyclic.app'
+
+window.addEventListener('DOMContentLoaded', (e) => {
+    e.preventDefault()
+    localStorage.clear();
+})
+
 const startDate = document.getElementById('data-inicio');
 const endDate = document.getElementById('data-fim');
-const loadDb = document.getElementById('load');
+//const loadDb = document.getElementById('load');
 const saveBtn = document.getElementById('save');
 const delBtn = document.getElementById('delete');
 const container = document.getElementById('container');
@@ -12,11 +18,11 @@ let dataInputs = document.getElementsByName('field');
 
 Inputs = JSON.parse(localStorage.getItem('dataInputs')) || [];
 
-loadDb.addEventListener('click', async () => {
-    localStorage.clear();
+//loadDb.addEventListener('click', async () => {
+    //localStorage.clear();
 
-    await Render();
-})
+    //await Render();
+//})
 
 async function Render() {
 
