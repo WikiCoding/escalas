@@ -1,6 +1,6 @@
 //const url = 'http://localhost:3000'
 //const url = 'https://uninterested-pear-hose.cyclic.app'
-const url = 'https://escalas-6eo7.onrender.com/'
+const url = 'https://escalas-6eo7.onrender.com'
 // const url = 'https://escalas.cyclic.app'
 
 //window.addEventListener('DOMContentLoaded', (e) => {
